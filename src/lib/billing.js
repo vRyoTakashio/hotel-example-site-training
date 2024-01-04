@@ -30,6 +30,6 @@ export function calcTotalBill(roomBill, date, term, headCount, breakfast, earlyC
     totalBill += additionalPlanPrice * headCount;
   }
 
-  totalBill -= 500
+  totalBill -= 500;
   return totalBill;
 }
