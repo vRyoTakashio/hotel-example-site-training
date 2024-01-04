@@ -29,7 +29,8 @@
     },
     "rank": {
       "premium": "プレミアム会員",
-      "normal": "一般会員"
+      "normal": "一般会員",
+      "ban": "凍結アカウント"
     },
     "unregistered": "未登録",
     "notification": {

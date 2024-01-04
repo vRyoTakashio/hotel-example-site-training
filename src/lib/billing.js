@@ -29,5 +29,7 @@ export function calcTotalBill(roomBill, date, term, headCount, breakfast, earlyC
   if (sightseeing) {
     totalBill += additionalPlanPrice * headCount;
   }
+
+  totalBill -= 500
   return totalBill;
 }

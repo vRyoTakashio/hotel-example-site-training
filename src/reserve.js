@@ -47,7 +47,7 @@ $(function() {
     const tomorrow = new Date();
     tomorrow.setDate(tomorrow.getDate() + 1);
     $('#date').val(formatDateShort(tomorrow));
-    const total = calcTotalBill(plan.roomBill, tomorrow, plan.minTerm, plan.minHeadCount, false, false, false, getAdditionalPlanPrice());
+    const total = calcTotalBill(plan.roomBill, tomorrow, plan.minTerm, plan.minHeadCount, true, true, false, getAdditionalPlanPrice());
     $('#total-bill').text(formatCurrency(total));
     if (plan.roomPage) {
       $('<iframe></iframe>', {

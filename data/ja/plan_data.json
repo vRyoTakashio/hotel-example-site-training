@@ -1,8 +1,8 @@
 [
   {
     "id": 0,
-    "name": "お得な特典付きプラン",
-    "roomBill": 7000,
+    "name": "お得な特典付き割引プラン",
+    "roomBill": 7500,
     "minHeadCount": 1,
     "maxHeadCount": 9,
     "minTerm": 1,
@@ -13,7 +13,7 @@
   },
   {
     "id": 1,
-    "name": "プレミアムプラン",
+    "name": "プレミアム割引プラン",
     "roomBill": 10000,
     "minHeadCount": 2,
     "maxHeadCount": 9,
@@ -25,7 +25,7 @@
   },
   {
     "id": 2,
-    "name": "ディナー付きプラン",
+    "name": "ディナー付き割引プラン",
     "roomBill": 8500,
     "minHeadCount": 1,
     "maxHeadCount": 4,
@@ -37,7 +37,7 @@
   },
   {
     "id": 3,
-    "name": "お得なプラン",
+    "name": "お得な割引プラン",
     "roomBill": 6000,
     "minHeadCount": 1,
     "maxHeadCount": 9,
@@ -49,7 +49,7 @@
   },
   {
     "id": 4,
-    "name": "素泊まり",
+    "name": "素割引泊まり",
     "roomBill": 5500,
     "minHeadCount": 1,
     "maxHeadCount": 2,
@@ -61,7 +61,7 @@
   },
   {
     "id": 5,
-    "name": "出張ビジネスプラン",
+    "name": "出張ビジネス割引プラン",
     "roomBill": 7500,
     "minHeadCount": 1,
     "maxHeadCount": 2,
@@ -73,7 +73,7 @@
   },
   {
     "id": 6,
-    "name": "エステ・マッサージプラン",
+    "name": "エステ・マッサージ割引プラン",
     "roomBill": 9000,
     "minHeadCount": 1,
     "maxHeadCount": 6,
@@ -85,7 +85,7 @@
   },
   {
     "id": 7,
-    "name": "貸し切り露天風呂プラン",
+    "name": "貸し切り露天風呂割引プラン",
     "roomBill": 9000,
     "minHeadCount": 1,
     "maxHeadCount": 6,
@@ -97,7 +97,7 @@
   },
   {
     "id": 8,
-    "name": "カップル限定プラン",
+    "name": "カップル限定割引プラン",
     "roomBill": 8000,
     "minHeadCount": 2,
     "maxHeadCount": 2,
@@ -109,7 +109,7 @@
   },
   {
     "id": 9,
-    "name": "テーマパーク優待プラン",
+    "name": "テーマパーク優待割引プラン",
     "roomBill": 10000,
     "minHeadCount": 1,
     "maxHeadCount": 9,
@@ -118,5 +118,17 @@
     "room": "部屋指定なし",
     "roomPage": null,
     "only": null
+  },
+  {
+    "id": 10,
+    "name": "BAN会員向け割引プラン",
+    "roomBill": 0,
+    "minHeadCount": 0,
+    "maxHeadCount": 0,
+    "minTerm": 0,
+    "maxTerm": 0,
+    "room": "部屋指定なし",
+    "roomPage": null,
+    "only": "ban"
   }
 ]

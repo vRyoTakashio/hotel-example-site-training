@@ -28,6 +28,8 @@ $(function() {
     $('#rank').text(t('user.rank.premium'));
   } else if (user.rank === 'normal') {
     $('#rank').text(t('user.rank.normal'));
+  } else if (user.rank === 'ban') {
+    $('#rank').text(t('user.rank.ban'));
   }
   $('#address').text(user.address ? user.address : t('user.unregistered'));
   $('#tel').text(user.tel ? user.tel : t('user.unregistered'));

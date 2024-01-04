@@ -2,7 +2,7 @@
   {
     "email": "ichiro@example.com",
     "password": "password",
-    "username": "山田一郎",
+    "username": "dd山田一郎様",
     "rank": "premium",
     "address": "東京都豊島区池袋",
     "tel": "01234567891",
@@ -11,10 +11,10 @@
     "notification": true
   },
   {
-    "email": "sakura@example.com",
+    "email": "asakura@example.com",
     "password": "pass1234",
-    "username": "松本さくら",
-    "rank": "normal",
+    "username": "dd朝倉さくら様",
+    "rank": "ban",
     "address": "神奈川県横浜市鶴見区大黒ふ頭",
     "tel": "",
     "gender": "2",
@@ -24,7 +24,7 @@
   {
     "email": "jun@example.com",
     "password": "pa55w0rd!",
-    "username": "林潤",
+    "username": "dd林潤様",
     "rank": "premium",
     "address": "大阪府大阪市北区梅田",
     "tel": "01212341234",
@@ -35,7 +35,7 @@
   {
     "email": "yoshiki@example.com",
     "password": "pass-pass",
-    "username": "木村良樹",
+    "username": "dd木村良樹様",
     "rank": "normal",
     "address": "",
     "tel": "01298765432",
